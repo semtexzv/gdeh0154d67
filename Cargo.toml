@@ -1,0 +1,16 @@
+[package]
+name = "gdeh0154d67"
+description = "Driver for the GDEH0154D67 E-Paper display."
+keywords = ["no-std", "driver", "display", "embedded"]
+categories = ["embedded", "no-std"]
+version = "0.1.0"
+edition = "2021"
+authors = ["Ignacio Casal Iglesias"]
+repository = "https://gitlab.com/CasalI/gdeh0154d67.git"
+license = "MIT"
+
+[dependencies]
+bitvec = { version = "1.0.1", default-features = false }
+embedded-graphics = "0.7.1"
+embedded-hal = "=1.0.0-alpha.8"
+thiserror-no-std = "2.0.2"
