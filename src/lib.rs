@@ -5,7 +5,7 @@
 //! constrains at compile time using zero cost abstractions. 
 #![no_std]
 
-pub mod command;
+mod command;
 pub mod error;
 
 use command::*;
