@@ -12,5 +12,5 @@ license = "MIT"
 [dependencies]
 bitvec = { version = "1.0.1", default-features = false }
 embedded-graphics = "0.7.1"
-embedded-hal = "=1.0.0-alpha.8"
+embedded-hal = "=1.0.0-alpha.9"
 thiserror-no-std = "2.0.2"
